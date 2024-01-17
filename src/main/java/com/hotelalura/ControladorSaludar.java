@@ -1,14 +1,14 @@
-package com.hotelalura.hotelalura;
+package com.hotelalura;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class ControladorSaludar {
     @FXML
     private Label welcomeText;
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+        welcomeText.setText("¡Hola! bienvenidos a JavaFX");
     }
 }
